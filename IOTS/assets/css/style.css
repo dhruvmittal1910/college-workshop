@@ -1104,7 +1104,7 @@ section {
 
 
 .keynotes {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/about-bg.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1311,6 +1311,38 @@ section {
 
 .submit .php-email-form button[type="submit"]:hover {
   background: #d3af71;
+}
+
+.schedule .info {
+  width: 100%;
+}
+
+.schedule .info i {
+  font-size: 20px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #cda45e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.schedule .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.schedule .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #bab3a6;
 }
 
 
